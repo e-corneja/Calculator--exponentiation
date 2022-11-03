@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+  }
+  
+  .form-cta {
+    width: 500px;
+    height: 300px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+  }
+  
+  .fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 65px 5px 5px 5px;
+  }
+  
+  .fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+  }
+  
+  .input-cta {
+    margin-left: 20px; 
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, 
+                inset -8px -8px 8px #ffffff;
+  }
+  
+  input.input-cta {
+    text-align: center;
+    }
+  
+  ::placeholder {
+    color: #999;
+  }
+  
+  .btn-cta {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 55px;
+    border-radius: 60px;
+    font-size: 20px;
+    background: #24cfaa ;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .btn-cta:hover {
+    background: #2fdbb6;
+  }
+  
+  .btn-cta:active {
+    background: #1da88a;
+  }
